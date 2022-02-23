@@ -1,0 +1,51 @@
+body{
+    font-family:”Arial”,”Helvetica”,Sans-serif;
+    Background-image:url(type-back.png);
+    background-size: cover;
+    font-weight:bold;
+    text-align: center;
+    }
+   
+    em{
+        font-style: normal ;
+}
+    .btitle{
+    Font-size:32pt;
+    Color:rgb(0,198,0);
+    Text-shadow:3px 3px 2px rgba(0,0,0,0.7);
+    }
+    #doit{
+    Color:rgb(0,255,255);
+    Font-size:16pt;
+    }
+    #textinp{
+    -webkit-appearances:none;
+    Border:none;
+    }
+    #notc{
+    Color:rgb(255,78,0);
+    Font-size:20pt;
+    visibility: hidden;
+    }
+    #end{
+    -webkit-appearances:none;
+    appearance:none;
+    Background-color:rgb(253,56,22);
+    Font-size:20pt;
+    Float:left;
+    margin-left:0 ;
+    margin-right: 0px;
+    }
+    #next{
+    -webkit-appearances:none;
+    appearance:none;
+    Background-color:rgb(3,240,126);
+    Font-size:20pt;
+    margin-left: 0px;
+    }
+    .btn{
+        display: flex;
+        justify-content:space-around;
+        margin-right: 10pt;
+        margin-left: 0pt;
+    }
