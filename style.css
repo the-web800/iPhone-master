@@ -1,6 +1,7 @@
 body{
     background-image: url(./index-Back.png);
     background-size: 100%;
+    position:  relative;
 }
 
 h1#btitle{
@@ -12,6 +13,7 @@ h1#btitle{
     margin-top: 30pt;
     margin-left: 12px;
     line-height: 1.2em;
+    position:  absolute;
 }
 
 #textm{
