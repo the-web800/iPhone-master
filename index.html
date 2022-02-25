@@ -11,10 +11,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <meta charset="utf-8">
         <title>iPhoneを練習しよう!</title>
         <link rel="stylesheet" href="./style.css">
+     <script>
+          onload = function(){
+               var wdh = screen.width ;
+               var hgt = screen.height ;
+               document.getElementById('mbk').style.width = wdh
+               document.getElementById('mbk').style.height = hgt
+               }
+     </script>
     </head>
 
     <body>
-       <main class="back">
+       <main class="back" id="mbk">
         <h1 id="btitle">iPhoneを<br>練習しよう!</h1>
         <br>
         <br>
